@@ -1,4 +1,4 @@
-B#include "sort.h"
+#include "sort.h"
 /**
  * partition - reorder the elements of the array in the order: <= pivot >=
  * @array: array to be sorted
