@@ -1,4 +1,4 @@
-#include "sort.h"
+B#include "sort.h"
 /**
  * partition - reorder the elements of the array in the order: <= pivot >=
  * @array: array to be sorted
@@ -20,7 +20,7 @@ int partition(int *array, int lo, int hi, size_t size)
 		{
 			if (i != j)
 			{
-				tmp =array[i];
+				tmp = array[i];
 				array[i] = array[j];
 				array[j] = tmp;
 				print_array(array, size);
